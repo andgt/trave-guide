@@ -464,10 +464,14 @@ img {
 .footer__scroll-up {
 	position: fixed;
 	display: none;
-	bottom: 140px;
-	right: 40px;
-	width: 52px;
-	height: 52px;
+	/*bottom: 140px;*/
+	bottom: 40px;
+	right: 10px;
+	/*right: 40px;*/
+	width: 30px;
+	height: 30px;
+	/*width: 52px;
+	height: 52px;*/
 	box-shadow: 0 2px 6px rgba(44, 44, 44, 0.2);
 	border-radius: 30px;
 	background-color: #f4f4f4;
@@ -480,8 +484,10 @@ img {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	content: "";
-	width: 16px;
-	height: 8px;
+	width: 12px;
+	height: 6px;
+	/*width: 16px;
+	height: 8px;*/
 	background-image: url("../img/arrow-up.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -584,6 +590,18 @@ img {
 	.footer-nav__link {
 		font-size: 16px;
 		line-height: 20px;
+	}
+
+	.footer__scroll-up {
+		bottom: 15px;
+		right: 40px;
+		width: 52px;
+		height: 52px;
+	}
+
+	.footer__scroll-up::before {
+		width: 16px;
+		height: 8px;
 	}
 }
 
